@@ -1,0 +1,112 @@
+body{
+   
+}
+.container{
+    border: 8px solid black;
+    width: 80%;
+    height: 50%;
+    margin-top: 20px;
+    margin-left: 8%;
+}
+ #logo{
+     margin-top: 2%;
+     margin-left: -120px;
+ }
+ menu{
+     padding-top: -5%;
+ }
+ 
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content:start;
+    margin-bottom: 0;
+    margin-left: 100px;
+    
+}
+ .menu ul a{
+    display: block;
+    padding: 20px;
+    margin: 0px 0;
+    text-decoration: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    margin-left: 20px;
+
+}
+.lien1{
+    margin-left: 190px;
+}
+ 
+ 
+.reseaux{
+    width: 20%;
+    border: 1px solid red;
+}
+
+
+ .iconne li{
+ list-style: none;
+ }
+ .iconne{
+     margin-right: 100px;
+ }
+ /* la mise en forme du button */
+ .comfort{
+     font-family: Retro Signature;
+     font-size: 51px;
+     margin-left: -140px;
+ }
+ .petit_cercle_a_droit{
+    width: 20px; 
+    height: 20px;
+     border: 1px solid black; 
+     border-radius: 50%;
+ }
+ .le_point{
+    width: 3px; 
+    height: 3px;
+     border: 1px solid black; 
+     border-radius: 50%;
+     background-color: black;
+      margin: 43%;
+ }
+ .le_point_hors{
+    width: 3px; 
+    height: 3px;
+     border: 1px solid black; 
+     border-radius: 50%;
+     background-color: black;
+     padding: 1;
+     margin-left: 8px;
+     
+   
+ }
+ .les_3_point{
+    display: flex;
+    margin-left: 23px;
+    margin-top: -12px;
+ }
+ .bouton{
+      box-shadow: 2ch;
+      justify-content: center;
+     width: 170px;
+     height: 50px;
+     margin-left: 42%;
+     margin-top: -3px;
+     margin-bottom:7px ;
+     border-radius: 250px  ;
+     background-color:#d8b200;
+    
+ }
+ .bouton button{
+     background-color: transparent;
+     border: none;
+ }
+ 
+ .bouton p{
+     margin-top: 15px;
+    color: white;
+    font-size: 20px;
+    font-family: Arial;
+ }
